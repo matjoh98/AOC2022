@@ -12,4 +12,4 @@ for idx, i in enumerate(lines):
         elfcalories.append(bank)
         bank = 0
 df = pd.DataFrame({"ElfNumber": elfnbr, "ElfCalories": elfcalories})
-print(df.sort_values("ElfCalories").tail(3)["ElfCalories"])
+print(df.sort_values("ElfCalories").tail(3)["ElfCalories"])cd 
