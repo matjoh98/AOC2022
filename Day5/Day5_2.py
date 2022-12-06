@@ -6,7 +6,6 @@ def prepare_stack(input_stack):
         dic = {**dic, **{i[0]: i[1::]}}
     return dic
 
-
 # input_stack = "example_stack.txt"
 input_stack = "stack.txt"
 
